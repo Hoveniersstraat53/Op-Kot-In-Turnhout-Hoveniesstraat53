@@ -3,41 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Het Kot - Turnhout</title>
+    <title>Kamers - Het Kot Turnhout</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fafafa; color: #333; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
         header { background-color: #c62828; color: white; padding: 2rem; text-align: center; }
         nav { background: #eee; padding: 1rem; text-align: center; }
         nav a { margin: 0 1rem; text-decoration: none; color: #c62828; font-weight: bold; }
-        main { padding: 2rem; }
-        section { margin-bottom: 4rem; }
-        .kamers, .contact { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        footer { background-color: #c62828; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
-        .btn { background-color: #c62828; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+        .kamer { background: white; border-radius: 8px; overflow: hidden; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .kamer img { width: 100%; height: auto; display: block; }
+        .kamer-info { padding: 1.5rem; }
+        .kamer-info h2 { color: #c62828; }
+        .btn { background-color: #c62828; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 1rem; display: inline-block; }
     </style>
 </head>
 <body>
 <header>
-    <h1>Het Kot - Hoveniersstraat 53 Turnhout</h1>
-    <p>Modern en warm studentenhuis vlakbij Thomas More Hogeschool</p>
+    <h1>Onze Kamers</h1>
 </header>
 <nav>
     <a href="index.html">Home</a>
     <a href="kamers.html">Kamers</a>
 </nav>
-<main>
-<section class="kamers">
-    <h2>Beschikbare kamers</h2>
-    <p>Bekijk ons aanbod op de <a href="kamers.html">kamerspagina</a>.</p>
-</section>
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Mail ons op:</p>
-    <a href="mailto:hoveniersstraat53@gmail.com" class="btn">Contacteer ons</a>
-</section>
-</main>
-<footer>
-    &copy; 2025 Het Kot - Turnhout
-</footer>
+<div class="container">
+    <div class="kamer">
+        <img src="images/kamer1.jpg" alt="Kamer 1">
+        <div class="kamer-info">
+            <h2>Kamer 1</h2>
+            <p>Ruime kamer met veel lichtinval.</p>
+            <p><strong>Prijs:</strong> €320 + €45 energie + €5 afval</p>
+            <a href="mailto:hoveniersstraat53@gmail.com" class="btn">Interesse?</a>
+        </div>
+    </div>
+    <div class="kamer">
+        <img src="images/kamer2.jpg" alt="Kamer 2">
+        <div class="kamer-info">
+            <h2>Kamer 2</h2>
+            <p>Gezellige kamer dichtbij de gemeenschappelijke keuken.</p>
+            <p><strong>Prijs:</strong> €320 + €45 energie + €5 afval</p>
+            <a href="mailto:hoveniersstraat53@gmail.com" class="btn">Interesse?</a>
+        </div>
+    </div>
+</div>
+</body>
+</html><!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamers - Het Kot Turnhout</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+        header { background-color: #c62828; color: white; padding: 2rem; text-align: center; }
+        nav { background: #eee; padding: 1rem; text-align: center; }
+        nav a { margin: 0 1rem; text-decoration: none; color: #c62828; font-weight: bold; }
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+        .kamer { background: white; border-radius: 8px; overflow: hidden; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .kamer img { width: 100%; height: auto; display: block; }
+        .kamer-info { padding: 1.5rem; }
+        .kamer-info h2 { color: #c62828; }
+        .btn { background-color: #c62828; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 1rem; display: inline-block; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Onze Kamers</h1>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="kamers.html">Kamers</a>
+</nav>
+<div class="container">
+    <div class="kamer">
+        <img src="images/kamer1.jpg" alt="Kamer 1">
+        <div class="kamer-info">
+            <h2>Kamer 1</h2>
+            <p>Ruime kamer met veel lichtinval.</p>
+            <p><strong>Prijs:</strong> €320 + €45 energie + €5 afval</p>
+            <a href="mailto:hoveniersstraat53@gmail.com" class="btn">Interesse?</a>
+        </div>
+    </div>
+    <div class="kamer">
+        <img src="images/kamer2.jpg" alt="Kamer 2">
+        <div class="kamer-info">
+            <h2>Kamer 2</h2>
+            <p>Gezellige kamer dichtbij de gemeenschappelijke keuken.</p>
+            <p><strong>Prijs:</strong> €320 + €45 energie + €5 afval</p>
+            <a href="mailto:hoveniersstraat53@gmail.com" class="btn">Interesse?</a>
+        </div>
+    </div>
+</div>
 </body>
 </html>
